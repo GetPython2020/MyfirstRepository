@@ -4,5 +4,5 @@ m = 1
 for n in range(2,min(a,b)):
     if (a%n == 0) & (b%n == 0):
         m = n
-print(f'{a} and {b} 的最大公约数是：{m}')
-print(f'{a} and {b} 的最小公倍数是：{(a*b)//m}')
+print(f'The greatest common divisor of {a} and {b} is：{m}')
+print(f'The least common multiple of {a} and {b} is：{(a*b)//m}')
