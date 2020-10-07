@@ -1,3 +1,5 @@
+# given a date, check it is on which day of the year
+
 days_month_leap = [31,29,31,30,31,30,31,31,30,31,31,30]
 days_month_non_leap = [31,28,31,30,31,30,31,31,30,31,31,30]
 
