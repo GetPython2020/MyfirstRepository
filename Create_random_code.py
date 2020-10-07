@@ -1,3 +1,4 @@
+# generate random code using numbers and letters
 import random
 def check(n=4):
     all_chas = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
