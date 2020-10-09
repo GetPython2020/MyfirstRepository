@@ -10,3 +10,15 @@ class Solution:
                 result=False
                 break
         return result
+    
+    # use no string
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:
+        return False
+        z = x
+        rev = 0
+        while x > 0:
+            rem = x % 10
+            x = x // 10
+            rev = rev * 10 + rem
+        return rev == z
